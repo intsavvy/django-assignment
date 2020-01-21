@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>
+        My app
+    </title>
+</head>
+<body>
+{{ context_var }}  <!-- Template Tagging Variable aka Jinja Variable -->
+<h2>Welcome to the home page.</h2>
+<img src="{% static 'myapp/home-page.jpg' %}">
+</body>
+</html>
